@@ -1,0 +1,9 @@
+{
+    "name": "helloworld_backend",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.11.0",
+    },
+    "author": "hennoune wassim ",
+    "description": "kbm doc"
+}

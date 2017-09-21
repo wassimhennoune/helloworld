@@ -1,0 +1,36 @@
+.mdi {
+  font-family: "Material Icons", "MaterialIcons-Regular";
+}
+
+StackLayout {
+    margin-left: 30;
+    margin-right: 30;
+    padding: 15;
+    background-color: rgb(66, 66, 66);
+    border-bottom-right-radius: 80 ;
+    border-bottom-left-radius: 80 ;
+  }
+  Image {
+    margin-top: 5;
+    margin-bottom: 20;
+  }
+  Button {
+    margin-left: 16;
+    margin-right: 16;
+    margin-bottom: 10;
+    border-radius: 40;
+    color : white ;
+  }
+  TextField {
+    margin-left: 16;
+    margin-right: 16;
+    margin-bottom: 10;
+    border-radius: 40;
+    background-color : white ;
+  }
+  .submit-button {
+    background-color: rgb(16, 238, 158);
+    color: white;
+    margin-top: 20;
+  }
+ 

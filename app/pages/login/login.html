@@ -1,0 +1,13 @@
+
+<DockLayout stretchLastChild="true">
+    <StackLayout dock="top">
+        <Image src="res://logo_2" stretch="none" horizontalAlignment="center"></Image>
+        <TextField hint="Email Address" keyboardType="email" [(ngModel)]="user.email"
+        autocorrect="false" autocapitalizationType="none"></TextField>
+        <TextField hint="Password" secure="true" [(ngModel)]="user.password"></TextField>
+        <Button text="SIGN IN {{'mdi-input' | fonticon}}" class="mdi submit-button" (tap)="submit()" ></Button>
+    </StackLayout>
+    <StackLayout dock="bottom">
+        <label text="copyright @ 2017 kbm technologie"  ></label>
+    </StackLayout>
+</DockLayout>

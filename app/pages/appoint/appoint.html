@@ -1,0 +1,8 @@
+<ListView [items]="appoints">
+        <template let-appoint="item" let-i="index">
+               <StackLayout (tap)="selectAppont(appoint.id_doctor)" >
+                       <Label [text]='"appoint: "+appoint.title  + "spec :"+appoint.id_doctor'></Label>
+                       <Label [text]='"id"+ appoint.id_appoint  + "id_hp"+appoint.id_hospital'></Label>
+              </StackLayout>
+       </template>       
+   </ListView>
